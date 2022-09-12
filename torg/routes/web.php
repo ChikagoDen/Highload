@@ -16,5 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/logger', [\App\Http\Controllers\LoggerController::class, 'index'])->name('logger');
-Route::get('/sort', [\App\Http\Controllers\LoggerController::class, 'babelSort'])->name('sort');
+//Route::get('/sort', [\App\Http\Controllers\LoggerController::class, 'babelSort'])->name('sort');

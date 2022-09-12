@@ -6,6 +6,5 @@ use Illuminate\Http\Request;
 
 interface LoggerControllerInterface
 {
-    public  function index(Request $request);
-    public function  babelSort ();
+//    public function  babelSort ();
 }
